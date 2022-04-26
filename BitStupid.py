@@ -1,3 +1,5 @@
+# Esolang Page: esolangs.org/wiki/Bit_Stupid
+
 def BitStupid(program, in_loop=False, default_acc=0):
     acc = default_acc
     program = program.split("\n")
@@ -16,5 +18,5 @@ def BitStupid(program, in_loop=False, default_acc=0):
                 elif i[j] == ".": acc = print(acc)
                 elif i[j] == ":": acc = BitStupid(i[j+1:], True, acc)
 
-BitStupid(",.,")
+BitStupid("Program Here!")
                     
